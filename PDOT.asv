@@ -1,0 +1,8 @@
+function [output] = PDOT(P3,P1)
+
+%output - r.o.c. of power
+%P3 - actual power,  P1 - power demanded
+
+if (p1>=50.0)
+    T=5.0;
+    P2=P1;

@@ -1,0 +1,3 @@
+function [output] = TGEAR(THTL)
+
+%Power command vs. t

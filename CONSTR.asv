@@ -1,0 +1,21 @@
+function [] =CONSTR(X)
+
+global AIL; 
+global EL; 
+global RDR; 
+global THTL;
+
+global RADGAM;
+global SINGAM;
+global RR;
+global PR;
+global TR;
+global PHI;
+global CPHI;
+global SPHI;
+
+CALPH = cos(X(2));
+SALPH = sin(X(2));
+CBETA = cos(X(3));
+SBETA = sin(X(3));
+

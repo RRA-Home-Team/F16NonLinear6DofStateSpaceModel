@@ -1,0 +1,64 @@
+%**************************************************************************
+%****  An F-16 Model from "Aircraft Control & Simulation" by D.McCabe  ****
+%**************************************************************************
+
+function Xdot = f16(t,X,U)
+
+%t - time
+
+%=================================== X ====================================
+%+--------------+--------------------------------------+------------------+
+%|  Var         |   Description:                       |    Units         |
+%+--------------+--------------------------------------+------------------+
+%| VT=X(1)      |   Airframe air velocity              |    m/s           |
+%| ALPHA=X(2)   |   Angle of Attack                    |    rad           |
+%| BETA=X(3)    |   Angle of Side Slip                 |    rad           |
+%| PHI=X(4)     |   Roll Angle                         |    rad           |
+%| THETA=X(5)   |   Pitch Angle                        |    rad           |
+%| PSI=X(6)     |   Yaw Angle                          |    rad           |
+%| P=X(7)       |   Roll Rate                          |    rad/s         |
+%| Q=X(8)       |   Pitch Rate                         |    rad/s         |
+%| R=X(9)       |   Yaw Rate                           |    rad/s         |
+%| xPos=X(10)   |   Aircraft Ground Position (x)       |    m             |
+%| yPos=X(11)   |   Aircraft Ground Position (y)       |    m             |
+%| ALT=X(12)    |   Aircraft Altitude                  |    m             |
+%| POW=X(13)    |   
+%+--------------+--------------------------------------+------------------+
+
+%================================== Xdot ==================================
+%+--------------+--------------------------------------+------------------+
+%|  Var         |   Description:                       |    Units         |
+%+--------------+--------------------------------------+------------------+
+%| VT=X(1)      |   Airframe air velocity              |    m/s           |
+%| ALPHA=X(2)   |   Angle of Attack                    |    rad           |
+%| BETA=X(3)    |   Angle of Side Slip                 |    rad           |
+%| PHI=X(4)     |   Roll Angle                         |    rad           |
+%| THETA=X(5)   |   Pitch Angle                        |    rad           |
+%| PSI=X(6)     |   Yaw Angle                          |    rad           |
+%| P=X(7)       |   Roll Rate                          |    rad/s         |
+%| Q=X(8)       |   Pitch Rate                         |    rad/s         |
+%| R=X(9)       |   Yaw Rate                           |    rad/s         |
+%| xPos=X(10)   |   Aircraft Ground Position (x)       |    m             |
+%| yPos=X(11)   |   Aircraft Ground Position (y)       |    m             |
+%| ALT=X(12)    |   Aircraft Altitude                  |    m             |
+%| POW=X(13)    |   
+%+--------------+--------------------------------------+------------------+
+
+%=================================== X ====================================
+%+--------------+--------------------------------------+------------------+
+%|  Var         |   Description:                       |    Units         |
+%+--------------+--------------------------------------+------------------+
+%| VT=X(1)      |   Airframe air velocity              |    m/s           |
+%| ALPHA=X(2)   |   Angle of Attack                    |    rad           |
+%| BETA=X(3)    |   Angle of Side Slip                 |    rad           |
+%| PHI=X(4)     |   Roll Angle                         |    rad           |
+%| THETA=X(5)   |   Pitch Angle                        |    rad           |
+%| PSI=X(6)     |   Yaw Angle                          |    rad           |
+%| P=X(7)       |   Roll Rate                          |    rad/s         |
+%| Q=X(8)       |   Pitch Rate                         |    rad/s         |
+%| R=X(9)       |   Yaw Rate                           |    rad/s         |
+%| xPos=X(10)   |   Aircraft Ground Position (x)       |    m             |
+%| yPos=X(11)   |   Aircraft Ground Position (y)       |    m             |
+%| ALT=X(12)    |   Aircraft Altitude                  |    m             |
+%| POW=X(13)    |   
+%+--------------+--------------------------------------+------------------
